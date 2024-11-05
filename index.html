@@ -5,83 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Biodata</title>
+    <style>
+        /* Style untuk tabel dan elemen lainnya */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td img {
+            width: 150px;
+            height: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .no-border {
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh;">
-        <!-- Title Biodata -->
-        <h1><b>Biodata</b></h1>
+    <!-- Title Biodata -->
+    <h1><b>BIODATA</b></h1>
+    <h2><b>here's the information about me</b></h2>
 
-        <!-- Table Biodata -->
-        <table border="1" cellpadding="10" cellspacing="0">
-            <tr>
-                <th colspan="2">Sample</th>
-                <th>Photo</th>
-            </tr>
-            <tr>
-                <td>Name</td>
-                <td>Satrio Akbar Aradhana</td>
-                <td rowspan="16" style="text-align: center;">
-                    <!-- Insert your photo from file -->
-                    <img src="./images/fotoku.jpg" alt="Photo" width="150">
-                </td>
-            </tr>
-            <tr>
-                <td>Date of birth</td>
-                <td>8 September 2004</td>
-            </tr>
-            <tr>
-                <td>Religion</td>
-                <td>Islam</td>
-            </tr>
-            <tr>
-                <td>Race</td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td>Street: Melati no 19</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Town: Malang</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>District: Dau</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>State: East Java</td>
-            </tr>
-            <tr>
-                <td>Contact</td>
-                <td>Mobile Phone: +6289528904644</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Social Media: Instagram @satrioardhn</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Website: -</td>
-            </tr>
-            <tr>
-                <td>Course and Institution</td>
-                <td>Universiti Tun Hussein Onn Malaysia</td>
-            </tr>
-            <tr>
-                <td>Programming skills</td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>Personal Interest</td>
-                <td>Playing Games, taro (food and beverage)</td>
-            </tr>
-            <tr>
-                <td>Future plan in 2025</td>
-                <td>Have income</td>
-            </tr>
-        </table>
-    </div>
+    <!-- Table Biodata -->
+    <table cellpadding="10" cellspacing="0">
+        <tr>
+            <th colspan="2">Profile</th>
+            <th>Photo</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Satrio Akbar Aradhana</td>
+            <td rowspan="16" style="text-align: center;">
+                <img src="./images/fotoku.jpg" alt="Photo">
+            </td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td>8 September 2004</td>
+        </tr>
+        <tr>
+            <td>Religion</td>
+            <td>Islam</td>
+        </tr>
+        <tr>
+            <td>Race</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Address</td>
+            <td>Street: Melati no 19</td>
+        </tr>
+        <tr>
+            <td>Town: Malang</td>
+        </tr>
+        <tr>
+            <td>District: Dau</td>
+        </tr>
+        <tr>
+            <td>State: East Java</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Contact</td>
+            <td>Mobile Phone: +6289528904644</td>
+        </tr>
+        <tr>
+            <td>Social Media: 
+                <a href="https://www.instagram.com/satrioardhn/" target="_blank">@satrioardhn</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="no-border">Website: -</td>
+        </tr>
+        <tr>
+            <td>Course and Institution</td>
+            <td>Universiti Tun Hussein Onn Malaysia</td>
+        </tr>
+        <tr>
+            <td>Programming skills</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Personal Interest</td>
+            <td>Playing Games, taro (food and beverage)</td>
+        </tr>
+        <tr>
+            <td>Future plan in 2025</td>
+            <td>Have income</td>
+        </tr>
+    </table>
 </body>
 </html>
